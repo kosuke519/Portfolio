@@ -159,9 +159,15 @@ input[type="submit"] {
   margin-left: 150px;
 }
 
-.work3 h2 p {
+.github {
+  width: 130px;
+  margin: 0px 0px 0px 250px;
+  border-radius: 40px;
 }
 
+.githubPage h1 {
+  margin-left: 70px;
+}
 /*   MEDIA
 /////////////////*/
 
