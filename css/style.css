@@ -1,0 +1,194 @@
+/*  共通部分　　*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Noto Serif JP", serif;
+
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+/*////////////////////*/
+
+/*  navigation*/
+.main-nav {
+  display: flex;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.main-nav li {
+  display: flex;
+  margin-right: 50px;
+}
+
+.main-nav a {
+  color: black;
+}
+.main-nav a:hover {
+  color: #0bd;
+}
+.page-header {
+  display: flex;
+  justify-content: space-around;
+}
+/*/////////////////////*/
+
+/*  背景　　*/
+.big-bg {
+  background-image: url(../images/contact.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  object-fit: cover;
+}
+.contact {
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+}
+.work {
+  background-image: url(../images/contact.jpg);
+
+  min-height: 90vh;
+}
+.profile {
+  background-image: url(../images/work.jpg);
+}
+
+/*////////////////*/
+
+/*HOME////*/
+
+.home-content {
+  text-align: center;
+  font-size: 2rem;
+  font-family: serif;
+}
+
+.home-content {
+  font-family: "Noto Serif JP", serif;
+}
+
+.home-content p {
+  font-size: 1.3rem;
+}
+
+.home-content {
+  margin-top: 8%;
+}
+
+/* フッター*/
+footer {
+  background: #432;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  font-size: 1.1rem;
+}
+/*////////////*/
+
+/* form*/
+label {
+  font-size: 1.125rem;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  max-width: 250px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+/*////////////////*/
+
+/*  works     */
+
+.workContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.works-box {
+  object-fit: cover;
+  display: flex;
+  justify-content: flex-start;
+}
+.work1 {
+  width: 350px;
+  margin-left: 80px;
+}
+.work2 {
+  width: 150px;
+  padding-left: 10px;
+}
+.work3 {
+  width: 350px;
+  margin-left: 150px;
+}
+
+.work3 h2 p {
+}
+
+/*   MEDIA
+/////////////////*/
+
+@media (max-width: 600px) {
+  .page-header {
+    font-size: 0.7rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li {
+    display: block;
+    border-bottom: solid;
+    color: #0bd;
+  }
+
+  .big-bg {
+    background-size: cover;
+    background: rgba(180, 193, 194, 0.5);
+  }
+}
